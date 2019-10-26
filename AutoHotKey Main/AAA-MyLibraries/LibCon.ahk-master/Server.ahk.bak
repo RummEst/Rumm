@@ -1,0 +1,18 @@
+﻿#Include LibCon.ahk
+SmartStartConsole() 
+
+puts("Hello World!")
+Loop, {
+gets(Com)
+exist0 := IsLabel(messe)
+msgbox, %com%_%exist0%
+
+	goto, %Com%
+;else
+	puts(Command "%Com%" Does not exist)
+}
+
+
+messe:
+msgbox, lol
+return

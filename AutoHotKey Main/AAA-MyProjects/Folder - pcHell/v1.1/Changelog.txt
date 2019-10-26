@@ -1,0 +1,3 @@
++Added redscreen
++Added Shutdown/Logout
++Improved MsgBoxes
